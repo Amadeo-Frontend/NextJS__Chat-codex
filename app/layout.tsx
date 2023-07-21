@@ -1,12 +1,5 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Sora } from "@next/font/google";
-
-export const sora = Sora({
-  subsets: ["latin"],
-  variable: "--font-sora",
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
-});
 
 export const metadata: Metadata = {
   title: 'Brain Chat',
@@ -23,7 +16,7 @@ export default function RootLayout({
       <head>
       <link rel="icon" type="image/png" href="/favicon.png" sizes="16x16" />
       </head>
-      <body className='${sora.variable}'><main className='h-full text-white'>{children}</main></body>
+      <body><main className='h-full text-white'>{children}</main></body>
     </html>
   )
 }
