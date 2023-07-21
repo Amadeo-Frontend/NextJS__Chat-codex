@@ -22,7 +22,7 @@ export default function Home() {
   )
 
   return (
-    <div className=" min-h-screen bg-[rgb(17,17,17)]">{
+    <div className=" min-h-screen bg-site bg-cover bg-blend-darken">{
       messages.length !== 0 ? (
         <div className='pb-32 pt-5 space-y-5 w-[75%] mx-auto relative'>
         {
@@ -33,14 +33,14 @@ export default function Home() {
               <div className='bg-gray-600 h-12 w-12 rounded-lg flex items-center justify-center'>
               <BiSolidUser className='text-4xl'/>
               </div>
-              <p className='rounded-lg p-3 w-full border-gray-800 border-2 text-sm'>{message.content}</p>
+              <p className='rounded-lg p-3 w-full bg-[rgb(17,17,17)] border-gray-800 border-2 text-sm'>{message.content}</p>
               </div>
               ):(
                 <div className='flex gap-x-2 '>
               <div className='bg-blue-900 h-12 w-12 rounded-lg flex items-center justify-center'>
               <VscHubot className='text-4xl'/>
               </div>
-              <p className='rounded-lg p-3 w-full border-blue-900 border-2 text-sm'>{message.content}</p>
+              <p className='rounded-lg p-3 w-full bg-[rgb(17,17,17)] border-blue-900 border-2 text-sm'>{message.content}</p>
               </div>
                 )
               }
@@ -58,7 +58,7 @@ export default function Home() {
               )
             }
             <div ref={messageEndRef}></div>
-            <form onSubmit={handleSubmit} className='p-5 fixed bottom-0 left-0 w-[75%] mx-auto right-0 bg-[rgb(17,17,17)]'>
+            <form onSubmit={handleSubmit} className='p-5 fixed bottom-0 left-0 w-[75%] mx-auto right-0 bg-transparent'>
             <div className='relative flex items-center'>
             <Textarea
             value={input}
