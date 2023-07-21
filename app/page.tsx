@@ -67,14 +67,11 @@ export default function Home() {
             className='rounded-lg focus:outline-none shadow-gray-600 shadow-md placeholder:text-gray-200 text-sm p bg-neutral-800 text-neutral-200 p-5 pr-16 w-full'
             rows={1}
             spellCheck={false}
-            autoComplete="off"
-            autoCorrect="off"
-            autoCapitalize="off"
             tabIndex={0}
             autoFocus
             required
             />
-            <button type='submit' className='absolute bg-blue-800 p-2 rounded-lg right-0 mr-5 hover:bg-blue-400 hover:text-black'><PiPaperPlaneRightFill className='text-1xl'/></button>
+            <button type='submit' title='enviar' className='absolute bg-blue-800 p-2 rounded-lg right-0 mr-5 hover:bg-blue-400 hover:text-black'><PiPaperPlaneRightFill className='text-1xl'/></button>
             </div>
             </form>
             </div>
