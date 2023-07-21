@@ -22,7 +22,7 @@ export default function Home() {
   )
 
   return (
-    <div className=" min-h-screen bg-site bg-cover bg-blend-darken">{
+    <div className=" min-h-screen bg-site bg-cover bg-center bg-blend-darken">{
       messages.length !== 0 ? (
         <div className='pb-32 pt-5 space-y-5 w-[75%] mx-auto relative'>
         {
@@ -50,8 +50,8 @@ export default function Home() {
             </div>
             
             ):(
-              <div className='w-full flex justify-center pt-32'>
-              <h1 className='{h1Page.className}font-bold text-3xl flex gap-x-4 justify-center items-center'>
+              <div className='w-full flex justify-center pt-32 p-4'>
+              <h1 className='font-bold text-3xl flex gap-x-4 justify-center items-center'>
               Pergunte o que quizer para a IA <PiArrowFatLinesDownBold className='text-2xl'/>
               </h1>
               </div>
