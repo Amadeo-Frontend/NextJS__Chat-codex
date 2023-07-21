@@ -1,8 +1,12 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Space_Grotesk } from 'next/font/google'
+import { Sora } from "@next/font/google";
 
-export const space = Space_Grotesk({ subsets: ['latin'] })
+export const sora = Sora({
+  subsets: ["latin"],
+  variable: "--font-sora",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
+});
 
 export const metadata: Metadata = {
   title: 'Brain Chat',
@@ -16,10 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <header>
+      <head>
       <link rel="icon" type="image/png" href="/favicon.png" sizes="16x16" />
-      </header>
-      <body className={space.className}><main className='h-full text-white'>{children}</main></body>
+      </head>
+      <body className='${sora.variable}'><main className='h-full text-white'>{children}</main></body>
     </html>
   )
 }
