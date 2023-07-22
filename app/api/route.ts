@@ -11,11 +11,13 @@ export const runtime = "edge";
 
 export async function POST(req: Request) {
     const {messages} = await req.json();
-
+    
     const response = await openai.createChatCompletion({
         model: "gpt-3.5-turbo",
         stream:true,
         messages: messages,
+        temperature: 0,
+        max_tokens: 2048,
     })
     const stream = OpenAIStream(response);
     return new StreamingTextResponse(stream);
