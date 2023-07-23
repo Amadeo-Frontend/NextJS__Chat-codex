@@ -15,7 +15,7 @@
 
  <div align="center">
  <p align="center">LIVE:</p>
-https://chat-codex-a8bmryu18-amadeo-frontend.vercel.app/
+https://chat-codex-tawny.vercel.app/
  </div>
  
 #
