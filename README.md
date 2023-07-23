@@ -20,7 +20,7 @@ https://chat-codex-tawny.vercel.app/
  
 #
 
-![Image Generation App](https://github.com/Amadeo-Frontend/images_sites/blob/main/codex-2.png)
-![Image Generation App](https://github.com/Amadeo-Frontend/images_sites/blob/main/codex-1.png)
+![Image Generation App](https://github.com/Amadeo-Frontend/images_sites/blob/main/codex.png)
+![Image Generation App](https://github.com/Amadeo-Frontend/images_sites/blob/main/codex1.png)
 
 
