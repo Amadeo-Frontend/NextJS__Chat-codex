@@ -7,3 +7,18 @@
 body {
   font-family: 'Space Grotesk', sans-serif;
 }
+
+/*========Scroll bar===========*/
+::-webkit-scrollbar {
+  width: 10px;
+  background: cyan;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(66, 203, 203);
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(2, 125, 125);
+}

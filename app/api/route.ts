@@ -16,7 +16,7 @@ export async function POST(req: Request) {
         model: "gpt-3.5-turbo",
         stream:true,
         messages: messages,
-        temperature: 0,
+        temperature: 0.2,
         max_tokens: 2048,
     })
     const stream = OpenAIStream(response);

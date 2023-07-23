@@ -31,19 +31,25 @@ export default function Home() {
           messages.map((message) => (
             <div key={message.id} className='w-full' >
             {message.role === 'user' ? (
-              <div className='flex gap-x-2 '>
+              <motion.div variants={fadeIn("right", 0.1)}
+              initial="hidden"
+              animate="show"
+              exit="hidden" className='flex gap-x-2 '>
               <div className='bg-gray-600 h-12 w-12 rounded-lg flex items-center justify-center'>
               <BiSolidUser className='text-4xl'/>
               </div>
               <p className='rounded-lg p-3 w-full bg-[rgb(17,17,17)] border-gray-800 border-2 text-sm'>{message.content}</p>
-              </div>
+              </motion.div>
               ):(
-                <div className='flex gap-x-2 '>
+                <motion.div variants={fadeIn("left", 0.1)}
+                initial="hidden"
+                animate="show"
+                exit="hidden" className='flex gap-x-2 '>
                 <div className='bg-[#17BBC6] h-12 w-12 rounded-lg flex items-center justify-center'>
                 <VscHubot className='text-4xl'/>
                 </div>
                 <p className='rounded-lg p-3 w-full bg-[rgb(17,17,17)] border-blue-900 border-2 text-sm'>{message.content}</p>
-                </div>
+                </motion.div>
                 )
               }
               
@@ -56,7 +62,7 @@ export default function Home() {
                 <motion.h1 variants={fadeIn("down", 0.2)}
                 initial="hidden"
                 animate="show"
-                exit="hidden" className='font-bold text-3xl flex gap-x-4 justify-center items-center bg-clip-text text-transparent bg-gradient-to-r from-sky-400 to-cyan-300'>
+                exit="hidden" className='font-bold text-3xl flex gap-x-4 justify-center items-center bg-clip-text text-transparent bg-gradient-to-r from-white/95 to-cyan-300 drop-shadow-lg'>
                 Pergunte o que quizer para o Codex <PiArrowFatLinesDownBold className='text-2xl fill-orange-700 animate-bounce transition-all delay-100'/>
                 </motion.h1>
                 </div>
