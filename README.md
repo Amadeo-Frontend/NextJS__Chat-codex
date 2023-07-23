@@ -2,7 +2,7 @@
 
 
 </br>
-<p align="center">Chat bot moderno e responsivo criado com Next.js, TypeScript e Tailwind</p>
+<p align="center">Chat bot moderno e responsivo criado com Next.js, TypeScript, Tailwind e framer motion</p>
 
 </br>
  <div style="display: inline_block" align="center" marging-right='8px'>
