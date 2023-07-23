@@ -62,8 +62,8 @@ export default function Home() {
                 <motion.h1 variants={fadeIn("down", 0.2)}
                 initial="hidden"
                 animate="show"
-                exit="hidden" className='font-bold text-3xl flex gap-x-4 justify-center items-center bg-clip-text text-transparent bg-gradient-to-r from-white/95 to-cyan-300 drop-shadow-lg'>
-                Pergunte o que quizer para o Codex <PiArrowFatLinesDownBold className='text-2xl fill-orange-700 animate-bounce transition-all delay-100'/>
+                exit="hidden" className='font-bold text-3xl flex gap-x-4 justify-center items-center bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 drop-shadow-lg z-10'>
+                Pergunte o que quizer para o Codex.<PiArrowFatLinesDownBold className='text-2xl fill-[#17BBC6] animate-bounce transition-all delay-100'/>
                 </motion.h1>
                 </div>
                 )
@@ -78,7 +78,7 @@ export default function Home() {
               value={input}
               onChange={handleInputChange}
               placeholder="Digite aqui sua pergunta"
-              className='rounded-lg resize-none focus:outline-none shadow-gray-600 shadow-md placeholder:text-gray-200 text-sm p bg-neutral-800 text-neutral-200 p-5 pr-16 w-full'
+              className='rounded-lg resize-none focus:outline-none shadow-gray-600 shadow-md placeholder:text-gray-300 text-sm p bg-neutral-800 text-neutral-200 p-5 pr-16 w-full'
               rows={1}
               spellCheck={false}
               tabIndex={0}
