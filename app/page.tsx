@@ -1,11 +1,11 @@
 "use client"
-import {useChat} from 'ai/react'
-import { PiArrowFatLinesDownBold,PiPaperPlaneRightFill } from "react-icons/pi";
-import {BiSolidUser} from 'react-icons/bi'
-import {VscHubot} from 'react-icons/vsc'
-import Textarea from 'react-textarea-autosize'
-import { useEffect, useRef } from 'react';
+import { useChat } from 'ai/react';
 import { motion } from 'framer-motion';
+import { useEffect, useRef } from 'react';
+import { BiSolidUser } from 'react-icons/bi';
+import { PiArrowFatLinesDownBold, PiPaperPlaneRightFill } from "react-icons/pi";
+import { VscHubot } from 'react-icons/vsc';
+import Textarea from 'react-textarea-autosize';
 import { fadeIn } from './variants';
 
 
@@ -63,7 +63,7 @@ export default function Home() {
                 initial="hidden"
                 animate="show"
                 exit="hidden" className='font-bold text-3xl flex gap-x-4 justify-center items-center bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 drop-shadow-lg z-10'>
-                Pergunte o que quizer para o Codex.<PiArrowFatLinesDownBold className='text-2xl fill-[#17BBC6] animate-bounce transition-all delay-100'/>
+                Faça sua pergunta ao Codex.<PiArrowFatLinesDownBold className='text-2xl fill-[#17BBC6] animate-bounce transition-all delay-100'/>
                 </motion.h1>
                 </div>
                 )
