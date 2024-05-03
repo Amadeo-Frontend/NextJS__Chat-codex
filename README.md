@@ -6,7 +6,7 @@
 
 </br>
  <div style="display: inline_block" align="center" marging-right='8px'>
- <img align="center" alt="Amadeo-nextjs" height="45" width="45" src="https://aglv.dev/img/next.png">
+ <img align="center" alt="Amadeo-nextjs" height="45" width="45" src="https://github.com/Amadeo-Frontend/devicon/blob/master/icons/typescript/next-original.svg">
      <img align="center" alt="Amadeo-typeScript" height="45" width="45" src="https://github.com/Amadeo-Frontend/devicon/blob/master/icons/typescript/typescript-original.svg">
      <img align="center" alt="Amadeo-Tailwindcss" height="45" widith="45" src="https://github.com/Amadeo-Frontend/devicon/blob/master/icons/tailwindcss/tailwindcss-plain.svg">
   <img align="center" alt="Amadeo-motion" height="45" widith="45" src="https://avatars.githubusercontent.com/u/42876?v=4">
